@@ -1,0 +1,15 @@
+MANGAWEB - INSTALACION RAPIDA EN WINDOWS (LARAGON)
+
+1. Extrae la carpeta MangaWeb en C:\laragon\www\mangaweb-completo.
+2. En Laragon activa MySQL y crea la base mangaweb_completo con HeidiSQL.
+3. Abre Terminal de Laragon en la carpeta mangaweb-completo.
+4. Ejecuta INSTALAR_MANGAWEB.bat (o los comandos de GUIA_INSTALACION_WINDOWS.md).
+5. Arranca Suwayomi Java en http://127.0.0.1:4567 y comprueba sus extensiones.
+6. Ejecuta INICIAR_MANGAWEB.bat y abre http://127.0.0.1:8001/register.
+7. Para descargar capitulos inicia tambien INICIAR_DESCARGAS.bat.
+8. Despues de registrar tu cuenta: ALLOW_REGISTRATION=false en .env y php artisan config:clear.
+
+IMPORTANTE: es codigo fuente Laravel/Vue. Composer/npm deben descargar vendor y node_modules.
+NO SE PUDO VERIFICAR EL ENTORNO COMPLETO CON MYSQL, SUWAYOMI O COMPILACION VUE.
+NO SOBRESCRIBAS TU PROYECTO ANTERIOR.
+Guia completa: GUIA_INSTALACION_WINDOWS.md

@@ -1,0 +1,21 @@
+{
+  "name": "MangaWeb",
+  "description": "Código fuente completo de la aplicación independiente para Laravel 13 + Vue 3 + Suwayomi",
+  "version": "1.0.0",
+  "build_date": "2026-11-22",
+  "files": 100,
+  "components": {
+    "vue_pages": 15,
+    "php_controllers": 18,
+    "php_migrations": 4
+  },
+  "requirements": [
+    "PHP >= 8.3",
+    "Composer 2",
+    "Node >= 20.19",
+    "MySQL",
+    "Suwayomi-Server local",
+    "PHP zip para CBZ"
+  ],
+  "validation": "Static lint is not an end-to-end test; Composer/npm unavailable in the build container."
+}
